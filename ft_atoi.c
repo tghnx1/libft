@@ -6,7 +6,7 @@
 /*   By: mkokorev <mkokorev@student.42berlin.d>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/17 14:39:33 by mkokorev          #+#    #+#             */
-/*   Updated: 2023/11/24 16:47:19 by mkokorev         ###   ########.fr       */
+/*   Updated: 2024/05/13 13:55:46 by mkokorev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,7 @@ char	*ft_spaceskip(const char *nptr)
 
 	i = 0;
 	while ((nptr[i] >= 9 && nptr[i] <= 13) || nptr[i] == 32)
-	{
 		i++;
-	}
 	return ((char *)&nptr[i]);
 }
 
